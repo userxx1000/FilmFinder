@@ -1,0 +1,466 @@
+/* Estilos CSS para mejorar la presentación */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+#main-header a {
+	color: white;
+}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+
+#logo-header:hover {
+	color: #0b76a6;
+}
+	
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+	
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #999;
+}
+	
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+			
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+			
+nav ul li a:hover {
+	background: #0b76a6;
+}
+				
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+#main-content header,
+#main-content .content {
+	padding: 40px;
+}
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+	
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+.footer-section h3 {
+    color: #fff;
+}
+.footer-section p {
+    color: #ccc;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 5px 0;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+.copyright {
+    margin-top: 20px;
+    color: #ccc;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Cambié el nombre de #main-cover a #cover-section */
+#cover-section {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+#cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+#cover-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.film-finder-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f8f9fa;
+            color: #495057;
+            min-height: 100vh;
+        }
+
+#content-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%; /* Cambiado a 100% para ocupar todo el ancho */
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    color: #343a40;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+#left-column {
+    flex: 1;
+    margin-bottom: 20px;
+}
+#right-column {
+    flex: 1;
+    margin-left: 20px; /* Añadido margen izquierdo para separar el formulario del texto */
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #343a40;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555e66;
+}
+#policy-checkbox {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+#policy-checkbox + label {
+    display: inline-block;
+    margin-left: 5px;
+    color: #343a40;
+}
+#faq-container {
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Línea separadora entre preguntas y respuestas */
+    padding-bottom: 15px;
+}
+
+.faq-question {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.faq-answer {
+    color: #495057;
+    margin-top: 10px;
+}
+
+.testimonials-container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.testimonial {
+    background-color: #C6E2F7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content {
+    text-align: left;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    color: #888;
+}
+.categories-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.category {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category-img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.category-name {
+    font-size: 16px;
+    margin: 0;
+}
+
+.popular-movies-container {
+    max-width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-movie {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; /* Ajusta el tamaño del contenedor según sea necesario */
+    margin: 10px; /* Ajusta el espacio entre los contenedores según sea necesario */
+}
+
+.popular-movie-img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.popular-movie-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.popular-movie-info {
+    font-size: 14px;
+    margin: 5px 0;
+}
+ .custom-images-container {
+            max-width: 800px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .custom-image {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 0 0 calc(50% - 20px);
+        }
+
+        .custom-image img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .custom-image-title {
+            font-size: 16px;
+            padding: 10px;
+        }
